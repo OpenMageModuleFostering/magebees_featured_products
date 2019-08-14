@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+	<menu>
+		<cws module="featured">
+		<title>MageBees</title>
+		<sort_order>70</sort_order> 
+			<children>
+				<featured module="featured">
+					<title>Featured Products</title>
+					<sort_order>70</sort_order>               
+					<children>
+						<groups module="featured">
+							<title>Manage Featured Products</title>
+							<sort_order>10</sort_order>
+							<action>adminhtml/featured</action>
+						</groups>
+						<settings>
+							<title>Settings</title>
+							<sort_order>20</sort_order>
+							<action>adminhtml/system_config/edit/section/featured</action>
+						</settings>
+					</children>
+				</featured>
+			</children>
+		</cws>
+	</menu>
+    <acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<featured>
+										<title>MageBees Featured Products Section</title>
+									</featured>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

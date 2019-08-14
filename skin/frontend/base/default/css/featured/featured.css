@@ -1,0 +1,13 @@
+.featuredProducts { margin-bottom:30px; }
+.featuredProducts ul, .featuredProducts ul ul, .featuredProducts ol, .featuredProducts ul.products-grid, .featuredProducts ul.products-list { list-style:none; margin:0; padding:0;}
+.featuredProducts ul li, .featuredProducts .pager .pages ol li { margin-left:0; }
+
+.featuredProducts .pager { float:none; border-bottom:1px dotted #ddd; border-top:1px dotted #ddd; padding:10px 10px 5px; margin-bottom:20px; }
+
+.featuredProducts .title h2 { font-weight:600; margin:10px 0; }
+
+.featuredProducts .products-grid .price-box p { margin-bottom:0; }
+.featuredProducts ul.products-list.rwd .price-box p { display:inline-block; margin:0 0 0 15px; }
+.featuredProducts ul.products-list.default .price-box p { margin:0 0 3px; }
+
+.default ul ul.add-to-links { margin-top:5px; }

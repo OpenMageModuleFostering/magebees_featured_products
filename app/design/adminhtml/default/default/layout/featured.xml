@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_featured_index>
+	    <reference name="content">
+			<!--<block type="adminhtml/store_switcher" name="store_switcher" as="store_switcher">
+				<action method="setUseConfirm">
+					<params>1</params>
+				</action>
+       		</block>-->
+			<!--<block type="featured/adminhtml_featured" name="store_switcher" template="featured/store.phtml" />-->
+ 		    <block type="featured/adminhtml_featured"  name="featured" ></block>
+        </reference>
+    </adminhtml_featured_index>
+    <adminhtml_featured_edit>
+		<reference name="head">
+			<action method="addJs"><script>featured/product-selector.js</script></action>
+        </reference>
+		<reference name="left">
+			<block type="adminhtml/store_switcher" name="store_switcher" before="-"></block>
+		</reference>
+    </adminhtml_featured_edit>
+</layout>
