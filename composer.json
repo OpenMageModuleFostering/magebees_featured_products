@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/MageBees_Featured_Products",
+    "name": "OpenMageModuleFostering\/MageBees_Featured_Products",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension is display featured products.",
     "authors": [
-    {
-        "name": "Capacity Web Solutions",
-        "email": "magento@capacitywebsolutions.com"
-    }
-],
+        {
+            "name": "Capacity Web Solutions",
+            "email": "magento@capacitywebsolutions.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
